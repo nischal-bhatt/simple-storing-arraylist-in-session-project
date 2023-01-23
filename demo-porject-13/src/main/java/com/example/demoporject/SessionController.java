@@ -19,6 +19,7 @@ public class SessionController {
 		List<String> strings = new ArrayList<>();
 		strings.add("S8713616G");
 		strings.add("S8414408H");
+		strings.add("S9876543S");
 		s.setAttribute("boro", strings);
 		System.out.println(s.getCreationTime());
 		return "yo";
